@@ -1,6 +1,6 @@
-import ImageSlideshow from "@/components/images/images-slideshow";
-import Link from "next/link";
-import classes from "./page.module.css";
+import ImageSlideshow from '@/components/images/images-slideshow';
+import Link from 'next/link';
+import classes from './page.module.css';
 
 export default function Home() {
   return (
@@ -16,8 +16,8 @@ export default function Home() {
           </div>
 
           <div className={classes.cta}>
-            <Link href={"/community"}>Join the Community</Link>
-            <Link href={"/meals"}>Explore Meals</Link>
+            <Link href={'/community'}>Join the Community</Link>
+            <Link href={'/meals'}>Explore Meals</Link>
           </div>
         </div>
       </header>
